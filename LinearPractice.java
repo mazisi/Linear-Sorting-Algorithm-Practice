@@ -1,7 +1,9 @@
-class LinearPractice{
-  public static void main (String[] args){
-     linearSearch([1,2,3,4,5,6], 3);
+public class LinearPractice{
+  public static void main(String[] args){
+    int[] intergers = {6,5,4,3,2,};
+      System.out.println(linearSearch(intergers,4));
   }
+
 
   public static int linearSearch(int[] data, int key) {
         for(int index = 0; index < data.length; index++) {
